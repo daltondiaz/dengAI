@@ -63,4 +63,17 @@ plt.title('Vegetation Index over Time')
 plt.xlabel('Time')
 
 
+# plt.show()
+
+print("San Juan")
+print('mean: ', sj_train_features.mean()[0])
+print('var: ', sj_train_labels.var()[0])
+
+print('\nInquitos')
+print('mean: ', iq_train_features.mean()[0])
+print('var: ', iq_train_labels.var()[0])
+
+
+sj_train_labels.hist()
+iq_train_labels.hist()
 plt.show()
